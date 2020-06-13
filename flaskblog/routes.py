@@ -2,7 +2,10 @@ from flask import render_template, url_for, flash, redirect
 from flaskblog import app
 from flaskblog.forms import RegistrationForm, LoginForm
 from flaskblog.models import User, Post
+import json
 
+with open("globalresources.json") as f:
+    maps_api_key = json.load(f)['mapsApiKey']
 
 posts = [
     {
@@ -50,3 +53,10 @@ def login():
             flash('Login Unsuccessful. Please check username and password', 'danger')
     return render_template('login.html', title='Login', form=form)
 
+@app.route('/charts')
+def charts():
+    return render_template('charts.html')
+
+@app.route('/charts_map')
+def charts_map():
+    return render_template('charts_map.html', maps_api_key=maps_api_key)
