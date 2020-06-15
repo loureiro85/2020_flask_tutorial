@@ -13,6 +13,7 @@ wtforms = {extras = ["email"], version = "^2.3.1"}
 flask_sqlalchemy = "^2.4.3"
 flask-bcrypt = "^0.7.1"
 flask-login = "^0.5.0"
+Pillow = "^7.1.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
