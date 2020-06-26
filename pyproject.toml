@@ -14,6 +14,8 @@ flask_sqlalchemy = "^2.4.3"
 flask-bcrypt = "^0.7.1"
 flask-login = "^0.5.0"
 Pillow = "^7.1.2"
+pip = "^20.1.1"
+flask-mail = "^0.9.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
