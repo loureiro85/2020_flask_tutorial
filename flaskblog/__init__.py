@@ -21,3 +21,7 @@ app.config['MAIL_PASSWORD'] = os.environ.get('EMAIL_PASS')
 mail = Mail(app)
 
 from flaskblog import routes
+
+
+assert os.environ.get('EMAIL_USER')
+assert os.environ.get('EMAIL_PASS')
