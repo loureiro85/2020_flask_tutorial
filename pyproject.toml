@@ -16,6 +16,8 @@ flask-login = "^0.5.0"
 Pillow = "^7.1.2"
 pip = "^20.1.1"
 flask-mail = "^0.9.1"
+pylint = "^2.5.3"
+autopep8 = "^1.5.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

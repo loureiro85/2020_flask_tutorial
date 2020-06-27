@@ -1,4 +1,6 @@
 {
-    "python.pythonPath": "C:\\Users\\loure\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\flask-01-7_W73SJo-py3.7\\Scripts\\python.exe",
-    "python.formatting.provider": "autopep8"
+    "python.pythonPath": "C:\\Users\\loure\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\flask-01-QkRrGTq_-py3.7\\Scripts\\python.exe",
+    "python.formatting.provider": "autopep8",
+    // "python.linting.pylintEnabled": true,
+    // "python.linting.pylintArgs": ["--enable=W0614"]
 }
